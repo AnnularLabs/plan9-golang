@@ -1,0 +1,62 @@
+main.add STEXT nosplit size=48 args=0x10 locals=0x18 funcid=0x0 align=0x0 leaf
+        0x0000 00000 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        TEXT    main.add(SB), NOSPLIT|LEAF|ABIInternal, $32-16
+        0x0000 00000 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        MOVD.W  R30, -32(RSP)
+        0x0004 00004 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        MOVD    R29, -8(RSP)
+        0x0008 00008 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        SUB     $8, RSP, R29
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        FUNCDATA        $0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        FUNCDATA        $1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        FUNCDATA        $5, main.add.arginfo1(SB)
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        MOVD    R0, main.a(FP)
+        0x0010 00016 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        MOVD    R1, main.b+8(FP)
+        0x0014 00020 (/Users/agility6/t/plan9-golang/base/add_func.go:3)        MOVD    ZR, main.~r0-16(SP)
+        0x0018 00024 (/Users/agility6/t/plan9-golang/base/add_func.go:4)        ADD     R1, R0, R0
+        0x001c 00028 (/Users/agility6/t/plan9-golang/base/add_func.go:4)        MOVD    R0, main.c-8(SP)
+        0x0020 00032 (/Users/agility6/t/plan9-golang/base/add_func.go:5)        MOVD    R0, main.~r0-16(SP)
+        0x0024 00036 (/Users/agility6/t/plan9-golang/base/add_func.go:5)        ADD     $24, RSP, R29
+        0x0028 00040 (/Users/agility6/t/plan9-golang/base/add_func.go:5)        ADD     $32, RSP
+        0x002c 00044 (/Users/agility6/t/plan9-golang/base/add_func.go:5)        RET     (R30)
+        0x0000 fe 0f 1e f8 fd 83 1f f8 fd 23 00 d1 e0 17 00 f9  .........#......
+        0x0010 e1 1b 00 f9 ff 07 00 f9 00 00 01 8b e0 0b 00 f9  ................
+        0x0020 e0 07 00 f9 fd 63 00 91 ff 83 00 91 c0 03 5f d6  .....c........_.
+main.main STEXT size=64 args=0x0 locals=0x18 funcid=0x0 align=0x0
+        0x0000 00000 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        TEXT    main.main(SB), ABIInternal, $32-0
+        0x0000 00000 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        MOVD    16(g), R16
+        0x0004 00004 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        PCDATA  $0, $-2
+        0x0004 00004 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        CMP     R16, RSP
+        0x0008 00008 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        BLS     48
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        PCDATA  $0, $-1
+        0x000c 00012 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        MOVD.W  R30, -32(RSP)
+        0x0010 00016 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        MOVD    R29, -8(RSP)
+        0x0014 00020 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        SUB     $8, RSP, R29
+        0x0018 00024 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        FUNCDATA        $0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+        0x0018 00024 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        FUNCDATA        $1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+        0x0018 00024 (/Users/agility6/t/plan9-golang/base/add_func.go:9)        MOVD    $1, R0
+        0x001c 00028 (/Users/agility6/t/plan9-golang/base/add_func.go:9)        MOVD    $2, R1
+        0x0020 00032 (/Users/agility6/t/plan9-golang/base/add_func.go:9)        PCDATA  $1, $0
+        0x0020 00032 (/Users/agility6/t/plan9-golang/base/add_func.go:9)        CALL    main.add(SB)
+        0x0024 00036 (/Users/agility6/t/plan9-golang/base/add_func.go:10)       LDP     -8(RSP), (R29, R30)
+        0x0028 00040 (/Users/agility6/t/plan9-golang/base/add_func.go:10)       ADD     $32, RSP
+        0x002c 00044 (/Users/agility6/t/plan9-golang/base/add_func.go:10)       RET     (R30)
+        0x0030 00048 (/Users/agility6/t/plan9-golang/base/add_func.go:10)       NOP
+        0x0030 00048 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        PCDATA  $1, $-1
+        0x0030 00048 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        PCDATA  $0, $-2
+        0x0030 00048 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        MOVD    R30, R3
+        0x0034 00052 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        CALL    runtime.morestack_noctxt(SB)
+        0x0038 00056 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        PCDATA  $0, $-1
+        0x0038 00056 (/Users/agility6/t/plan9-golang/base/add_func.go:8)        JMP     0
+        0x0000 90 0b 40 f9 ff 63 30 eb 49 01 00 54 fe 0f 1e f8  ..@..c0.I..T....
+        0x0010 fd 83 1f f8 fd 23 00 d1 e0 03 40 b2 e1 03 7f b2  .....#....@.....
+        0x0020 00 00 00 94 fd fb 7f a9 ff 83 00 91 c0 03 5f d6  .............._.
+        0x0030 e3 03 1e aa 00 00 00 94 f2 ff ff 17 00 00 00 00  ................
+        rel 32+4 t=R_CALLARM64 main.add+0
+        rel 52+4 t=R_CALLARM64 runtime.morestack_noctxt+0
+go:cuinfo.producer.<unlinkable> SDWARFCUINFO dupok size=0
+        0x0000 2d 4e 20 2d 6c 20 72 65 67 61 62 69              -N -l regabi
+go:cuinfo.packagename.main SDWARFCUINFO dupok size=0
+        0x0000 6d 61 69 6e                                      main
+main..inittask SNOPTRDATA size=8
+        0x0000 00 00 00 00 00 00 00 00                          ........
+gclocals·g2BeySu+wFnoycgXfElmcg== SRODATA dupok size=8
+        0x0000 01 00 00 00 00 00 00 00                          ........
+main.add.arginfo1 SRODATA static dupok size=5
+        0x0000 00 08 08 08 ff                                   .....

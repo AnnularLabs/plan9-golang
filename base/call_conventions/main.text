@@ -1,0 +1,333 @@
+main.add STEXT size=432 args=0x88 locals=0x68 funcid=0x0 align=0x0
+	0x0000 00000 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	TEXT	main.add(SB), ABIInternal, $112-136
+	0x0000 00000 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	16(g), R16
+	0x0004 00004 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	PCDATA	$0, $-2
+	0x0004 00004 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	CMP	R16, RSP
+	0x0008 00008 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	BLS	292
+	0x000c 00012 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	PCDATA	$0, $-1
+	0x000c 00012 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD.W	R30, -112(RSP)
+	0x0010 00016 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R29, -8(RSP)
+	0x0014 00020 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	SUB	$8, RSP, R29
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	FUNCDATA	$5, main.add.arginfo1(SB)
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R0, main.x+8(FP)
+	0x001c 00028 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R1, main.y+16(FP)
+	0x0020 00032 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R2, main.z+24(FP)
+	0x0024 00036 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R3, main.a+32(FP)
+	0x0028 00040 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R4, main.b+40(FP)
+	0x002c 00044 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R5, main.c+48(FP)
+	0x0030 00048 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R6, main.d+56(FP)
+	0x0034 00052 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R7, main.e+64(FP)
+	0x0038 00056 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R8, main.f+72(FP)
+	0x003c 00060 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R9, main.g+80(FP)
+	0x0040 00064 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R10, main.h+88(FP)
+	0x0044 00068 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R11, main.l+96(FP)
+	0x0048 00072 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R12, main.v+104(FP)
+	0x004c 00076 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R13, main.w+112(FP)
+	0x0050 00080 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R14, main.s+120(FP)
+	0x0054 00084 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R15, main.q+128(FP)
+	0x0058 00088 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r0-8(SP)
+	0x005c 00092 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r1-16(SP)
+	0x0060 00096 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r2-32(SP)
+	0x0064 00100 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r3-40(SP)
+	0x0068 00104 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r4-48(SP)
+	0x006c 00108 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r5-56(SP)
+	0x0070 00112 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r6-64(SP)
+	0x0074 00116 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r7-72(SP)
+	0x0078 00120 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r8-80(SP)
+	0x007c 00124 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r9-88(SP)
+	0x0080 00128 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	ZR, main.~r10-24(SP)
+	0x0084 00132 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	PCDATA	$1, $0
+	0x0084 00132 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printlock(SB)
+	0x0088 00136 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	MOVD	main.x+8(FP), R0
+	0x008c 00140 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printint(SB)
+	0x0090 00144 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printsp(SB)
+	0x0094 00148 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	MOVD	main.y+16(FP), R0
+	0x0098 00152 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printint(SB)
+	0x009c 00156 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printnl(SB)
+	0x00a0 00160 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:5)	CALL	runtime.printunlock(SB)
+	0x00a4 00164 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$1, R0
+	0x00a8 00168 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r0-8(SP)
+	0x00ac 00172 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$2, R0
+	0x00b0 00176 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r1-16(SP)
+	0x00b4 00180 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$3, R0
+	0x00b8 00184 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r2-32(SP)
+	0x00bc 00188 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$4, R0
+	0x00c0 00192 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r3-40(SP)
+	0x00c4 00196 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$5, R0
+	0x00c8 00200 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r4-48(SP)
+	0x00cc 00204 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$6, R0
+	0x00d0 00208 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r5-56(SP)
+	0x00d4 00212 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$7, R0
+	0x00d8 00216 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R0, main.~r6-64(SP)
+	0x00dc 00220 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$8, R7
+	0x00e0 00224 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R7, main.~r7-72(SP)
+	0x00e4 00228 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$9, R8
+	0x00e8 00232 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R8, main.~r8-80(SP)
+	0x00ec 00236 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$10, R9
+	0x00f0 00240 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R9, main.~r9-88(SP)
+	0x00f4 00244 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	$11, R10
+	0x00f8 00248 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	R10, main.~r10-24(SP)
+	0x00fc 00252 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r0-8(SP), R0
+	0x0100 00256 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r1-16(SP), R1
+	0x0104 00260 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r2-32(SP), R2
+	0x0108 00264 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r3-40(SP), R3
+	0x010c 00268 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r4-48(SP), R4
+	0x0110 00272 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r5-56(SP), R5
+	0x0114 00276 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	MOVD	main.~r6-64(SP), R6
+	0x0118 00280 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	LDP	-8(RSP), (R29, R30)
+	0x011c 00284 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	ADD	$112, RSP
+	0x0120 00288 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	RET	(R30)
+	0x0124 00292 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:6)	NOP
+	0x0124 00292 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	PCDATA	$1, $-1
+	0x0124 00292 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	PCDATA	$0, $-2
+	0x0124 00292 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R0, 16(RSP)
+	0x0128 00296 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R1, 24(RSP)
+	0x012c 00300 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R2, 32(RSP)
+	0x0130 00304 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R3, 40(RSP)
+	0x0134 00308 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R4, 48(RSP)
+	0x0138 00312 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R5, 56(RSP)
+	0x013c 00316 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R6, 64(RSP)
+	0x0140 00320 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R7, 72(RSP)
+	0x0144 00324 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R8, 80(RSP)
+	0x0148 00328 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R9, 88(RSP)
+	0x014c 00332 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R10, 96(RSP)
+	0x0150 00336 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R11, 104(RSP)
+	0x0154 00340 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R12, 112(RSP)
+	0x0158 00344 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R13, 120(RSP)
+	0x015c 00348 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R14, 128(RSP)
+	0x0160 00352 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R15, 136(RSP)
+	0x0164 00356 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	R30, R3
+	0x0168 00360 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	CALL	runtime.morestack_noctxt(SB)
+	0x016c 00364 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	PCDATA	$0, $-1
+	0x016c 00364 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	16(RSP), R0
+	0x0170 00368 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	24(RSP), R1
+	0x0174 00372 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	32(RSP), R2
+	0x0178 00376 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	40(RSP), R3
+	0x017c 00380 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	48(RSP), R4
+	0x0180 00384 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	56(RSP), R5
+	0x0184 00388 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	64(RSP), R6
+	0x0188 00392 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	72(RSP), R7
+	0x018c 00396 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	80(RSP), R8
+	0x0190 00400 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	88(RSP), R9
+	0x0194 00404 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	96(RSP), R10
+	0x0198 00408 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	104(RSP), R11
+	0x019c 00412 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	112(RSP), R12
+	0x01a0 00416 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	120(RSP), R13
+	0x01a4 00420 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	128(RSP), R14
+	0x01a8 00424 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	MOVD	136(RSP), R15
+	0x01ac 00428 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:4)	JMP	0
+	0x0000 90 0b 40 f9 ff 63 30 eb e9 08 00 54 fe 0f 19 f8  ..@..c0....T....
+	0x0010 fd 83 1f f8 fd 23 00 d1 e0 43 00 f9 e1 47 00 f9  .....#...C...G..
+	0x0020 e2 4b 00 f9 e3 4f 00 f9 e4 53 00 f9 e5 57 00 f9  .K...O...S...W..
+	0x0030 e6 5b 00 f9 e7 5f 00 f9 e8 63 00 f9 e9 67 00 f9  .[..._...c...g..
+	0x0040 ea 6b 00 f9 eb 6f 00 f9 ec 73 00 f9 ed 77 00 f9  .k...o...s...w..
+	0x0050 ee 7b 00 f9 ef 7f 00 f9 ff 33 00 f9 ff 2f 00 f9  .{.......3.../..
+	0x0060 ff 27 00 f9 ff 23 00 f9 ff 1f 00 f9 ff 1b 00 f9  .'...#..........
+	0x0070 ff 17 00 f9 ff 13 00 f9 ff 0f 00 f9 ff 0b 00 f9  ................
+	0x0080 ff 2b 00 f9 00 00 00 94 e0 43 40 f9 00 00 00 94  .+.......C@.....
+	0x0090 00 00 00 94 e0 47 40 f9 00 00 00 94 00 00 00 94  .....G@.........
+	0x00a0 00 00 00 94 e0 03 40 b2 e0 33 00 f9 e0 03 7f b2  ......@..3......
+	0x00b0 e0 2f 00 f9 e0 07 40 b2 e0 27 00 f9 e0 03 7e b2  ./....@..'....~.
+	0x00c0 e0 23 00 f9 a0 00 80 d2 e0 1f 00 f9 e0 07 7f b2  .#..............
+	0x00d0 e0 1b 00 f9 e0 0b 40 b2 e0 17 00 f9 e7 03 7d b2  ......@.......}.
+	0x00e0 e7 13 00 f9 28 01 80 d2 e8 0f 00 f9 49 01 80 d2  ....(.......I...
+	0x00f0 e9 0b 00 f9 6a 01 80 d2 ea 2b 00 f9 e0 33 40 f9  ....j....+...3@.
+	0x0100 e1 2f 40 f9 e2 27 40 f9 e3 23 40 f9 e4 1f 40 f9  ./@..'@..#@...@.
+	0x0110 e5 1b 40 f9 e6 17 40 f9 fd fb 7f a9 ff c3 01 91  ..@...@.........
+	0x0120 c0 03 5f d6 e0 0b 00 f9 e1 0f 00 f9 e2 13 00 f9  .._.............
+	0x0130 e3 17 00 f9 e4 1b 00 f9 e5 1f 00 f9 e6 23 00 f9  .............#..
+	0x0140 e7 27 00 f9 e8 2b 00 f9 e9 2f 00 f9 ea 33 00 f9  .'...+.../...3..
+	0x0150 eb 37 00 f9 ec 3b 00 f9 ed 3f 00 f9 ee 43 00 f9  .7...;...?...C..
+	0x0160 ef 47 00 f9 e3 03 1e aa 00 00 00 94 e0 0b 40 f9  .G............@.
+	0x0170 e1 0f 40 f9 e2 13 40 f9 e3 17 40 f9 e4 1b 40 f9  ..@...@...@...@.
+	0x0180 e5 1f 40 f9 e6 23 40 f9 e7 27 40 f9 e8 2b 40 f9  ..@..#@..'@..+@.
+	0x0190 e9 2f 40 f9 ea 33 40 f9 eb 37 40 f9 ec 3b 40 f9  ./@..3@..7@..;@.
+	0x01a0 ed 3f 40 f9 ee 43 40 f9 ef 47 40 f9 95 ff ff 17  .?@..C@..G@.....
+	rel 132+4 t=R_CALLARM64 runtime.printlock+0
+	rel 140+4 t=R_CALLARM64 runtime.printint+0
+	rel 144+4 t=R_CALLARM64 runtime.printsp+0
+	rel 152+4 t=R_CALLARM64 runtime.printint+0
+	rel 156+4 t=R_CALLARM64 runtime.printnl+0
+	rel 160+4 t=R_CALLARM64 runtime.printunlock+0
+	rel 360+4 t=R_CALLARM64 runtime.morestack_noctxt+0
+main.main STEXT size=416 args=0x0 locals=0x148 funcid=0x0 align=0x0
+	0x0000 00000 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	TEXT	main.main(SB), ABIInternal, $336-0
+	0x0000 00000 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	MOVD	16(g), R16
+	0x0004 00004 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-2
+	0x0004 00004 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	SUB	$208, RSP, R17
+	0x0008 00008 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	CMP	R16, R17
+	0x000c 00012 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	BLS	400
+	0x0010 00016 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-1
+	0x0010 00016 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	SUB	$336, RSP, R20
+	0x0014 00020 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	STP	(R29, R30), -8(R20)
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-2
+	0x0018 00024 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	MOVD	R20, RSP
+	0x001c 00028 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-1
+	0x001c 00028 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	SUB	$8, RSP, R29
+	0x0020 00032 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	FUNCDATA	$0, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0020 00032 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	FUNCDATA	$1, gclocals·g2BeySu+wFnoycgXfElmcg==(SB)
+	0x0020 00032 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$17, R16
+	0x0024 00036 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, 8(RSP)
+	0x0028 00040 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$1, R0
+	0x002c 00044 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$2, R1
+	0x0030 00048 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$3, R2
+	0x0034 00052 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$4, R3
+	0x0038 00056 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$5, R4
+	0x003c 00060 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$6, R5
+	0x0040 00064 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$7, R6
+	0x0044 00068 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$8, R7
+	0x0048 00072 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$9, R8
+	0x004c 00076 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$10, R9
+	0x0050 00080 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$11, R10
+	0x0054 00084 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$12, R11
+	0x0058 00088 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$13, R12
+	0x005c 00092 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$14, R13
+	0x0060 00096 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$15, R14
+	0x0064 00100 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	$16, R15
+	0x0068 00104 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	PCDATA	$1, $0
+	0x0068 00104 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	main.add(SB)
+	0x006c 00108 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R0, main..autotmp_11-32(SP)
+	0x0070 00112 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R1, main..autotmp_12-40(SP)
+	0x0074 00116 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R2, main..autotmp_13-48(SP)
+	0x0078 00120 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R3, main..autotmp_14-56(SP)
+	0x007c 00124 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R4, main..autotmp_15-64(SP)
+	0x0080 00128 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R5, main..autotmp_16-72(SP)
+	0x0084 00132 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R6, main..autotmp_17-80(SP)
+	0x0088 00136 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R7, main..autotmp_18-88(SP)
+	0x008c 00140 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R8, main..autotmp_19-96(SP)
+	0x0090 00144 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R9, main..autotmp_20-112(SP)
+	0x0094 00148 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R10, main..autotmp_21-120(SP)
+	0x0098 00152 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_11-32(SP), R16
+	0x009c 00156 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_0-8(SP)
+	0x00a0 00160 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_12-40(SP), R16
+	0x00a4 00164 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_1-16(SP)
+	0x00a8 00168 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_13-48(SP), R16
+	0x00ac 00172 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_2-104(SP)
+	0x00b0 00176 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_14-56(SP), R16
+	0x00b4 00180 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_3-136(SP)
+	0x00b8 00184 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_15-64(SP), R16
+	0x00bc 00188 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_4-144(SP)
+	0x00c0 00192 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_16-72(SP), R16
+	0x00c4 00196 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_5-152(SP)
+	0x00c8 00200 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_17-80(SP), R16
+	0x00cc 00204 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_6-160(SP)
+	0x00d0 00208 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_18-88(SP), R16
+	0x00d4 00212 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_7-168(SP)
+	0x00d8 00216 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_19-96(SP), R16
+	0x00dc 00220 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_8-176(SP)
+	0x00e0 00224 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_20-112(SP), R16
+	0x00e4 00228 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_9-184(SP)
+	0x00e8 00232 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_21-120(SP), R16
+	0x00ec 00236 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_10-24(SP)
+	0x00f0 00240 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_0-8(SP), R16
+	0x00f4 00244 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	R16, main..autotmp_22-128(SP)
+	0x00f8 00248 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printlock(SB)
+	0x00fc 00252 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_22-128(SP), R0
+	0x0100 00256 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0104 00260 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0108 00264 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_1-16(SP), R0
+	0x010c 00268 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0110 00272 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0114 00276 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_2-104(SP), R0
+	0x0118 00280 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x011c 00284 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0120 00288 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_3-136(SP), R0
+	0x0124 00292 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0128 00296 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x012c 00300 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_4-144(SP), R0
+	0x0130 00304 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0134 00308 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0138 00312 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_5-152(SP), R0
+	0x013c 00316 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0140 00320 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0144 00324 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_6-160(SP), R0
+	0x0148 00328 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x014c 00332 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0150 00336 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_7-168(SP), R0
+	0x0154 00340 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0158 00344 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x015c 00348 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_8-176(SP), R0
+	0x0160 00352 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0164 00356 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0168 00360 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_9-184(SP), R0
+	0x016c 00364 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x0170 00368 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printsp(SB)
+	0x0174 00372 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	MOVD	main..autotmp_10-24(SP), R0
+	0x0178 00376 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printint(SB)
+	0x017c 00380 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printnl(SB)
+	0x0180 00384 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:10)	CALL	runtime.printunlock(SB)
+	0x0184 00388 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:11)	LDP	-8(RSP), (R29, R30)
+	0x0188 00392 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:11)	ADD	$336, RSP
+	0x018c 00396 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:11)	RET	(R30)
+	0x0190 00400 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:11)	NOP
+	0x0190 00400 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$1, $-1
+	0x0190 00400 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-2
+	0x0190 00400 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	MOVD	R30, R3
+	0x0194 00404 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	CALL	runtime.morestack_noctxt(SB)
+	0x0198 00408 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	PCDATA	$0, $-1
+	0x0198 00408 (/Users/agility6/t/plan9-golang/base/call_conventions/main.go:9)	JMP	0
+	0x0000 90 0b 40 f9 f1 43 03 d1 3f 02 10 eb 29 0c 00 54  ..@..C..?...)..T
+	0x0010 f4 43 05 d1 9d fa 3f a9 9f 02 00 91 fd 23 00 d1  .C....?......#..
+	0x0020 30 02 80 d2 f0 07 00 f9 e0 03 40 b2 e1 03 7f b2  0.........@.....
+	0x0030 e2 07 40 b2 e3 03 7e b2 a4 00 80 d2 e5 07 7f b2  ..@...~.........
+	0x0040 e6 0b 40 b2 e7 03 7d b2 28 01 80 d2 49 01 80 d2  ..@...}.(...I...
+	0x0050 6a 01 80 d2 eb 07 7e b2 ac 01 80 d2 ed 0b 7f b2  j.....~.........
+	0x0060 ee 0f 40 b2 ef 03 7c b2 00 00 00 94 e0 97 00 f9  ..@...|.........
+	0x0070 e1 93 00 f9 e2 8f 00 f9 e3 8b 00 f9 e4 87 00 f9  ................
+	0x0080 e5 83 00 f9 e6 7f 00 f9 e7 7b 00 f9 e8 77 00 f9  .........{...w..
+	0x0090 e9 6f 00 f9 ea 6b 00 f9 f0 97 40 f9 f0 a3 00 f9  .o...k....@.....
+	0x00a0 f0 93 40 f9 f0 9f 00 f9 f0 8f 40 f9 f0 73 00 f9  ..@.......@..s..
+	0x00b0 f0 8b 40 f9 f0 63 00 f9 f0 87 40 f9 f0 5f 00 f9  ..@..c....@.._..
+	0x00c0 f0 83 40 f9 f0 5b 00 f9 f0 7f 40 f9 f0 57 00 f9  ..@..[....@..W..
+	0x00d0 f0 7b 40 f9 f0 53 00 f9 f0 77 40 f9 f0 4f 00 f9  .{@..S...w@..O..
+	0x00e0 f0 6f 40 f9 f0 4b 00 f9 f0 6b 40 f9 f0 9b 00 f9  .o@..K...k@.....
+	0x00f0 f0 a3 40 f9 f0 67 00 f9 00 00 00 94 e0 67 40 f9  ..@..g.......g@.
+	0x0100 00 00 00 94 00 00 00 94 e0 9f 40 f9 00 00 00 94  ..........@.....
+	0x0110 00 00 00 94 e0 73 40 f9 00 00 00 94 00 00 00 94  .....s@.........
+	0x0120 e0 63 40 f9 00 00 00 94 00 00 00 94 e0 5f 40 f9  .c@.........._@.
+	0x0130 00 00 00 94 00 00 00 94 e0 5b 40 f9 00 00 00 94  .........[@.....
+	0x0140 00 00 00 94 e0 57 40 f9 00 00 00 94 00 00 00 94  .....W@.........
+	0x0150 e0 53 40 f9 00 00 00 94 00 00 00 94 e0 4f 40 f9  .S@..........O@.
+	0x0160 00 00 00 94 00 00 00 94 e0 4b 40 f9 00 00 00 94  .........K@.....
+	0x0170 00 00 00 94 e0 9b 40 f9 00 00 00 94 00 00 00 94  ......@.........
+	0x0180 00 00 00 94 fd fb 7f a9 ff 43 05 91 c0 03 5f d6  .........C...._.
+	0x0190 e3 03 1e aa 00 00 00 94 9a ff ff 17 00 00 00 00  ................
+	rel 104+4 t=R_CALLARM64 main.add+0
+	rel 248+4 t=R_CALLARM64 runtime.printlock+0
+	rel 256+4 t=R_CALLARM64 runtime.printint+0
+	rel 260+4 t=R_CALLARM64 runtime.printsp+0
+	rel 268+4 t=R_CALLARM64 runtime.printint+0
+	rel 272+4 t=R_CALLARM64 runtime.printsp+0
+	rel 280+4 t=R_CALLARM64 runtime.printint+0
+	rel 284+4 t=R_CALLARM64 runtime.printsp+0
+	rel 292+4 t=R_CALLARM64 runtime.printint+0
+	rel 296+4 t=R_CALLARM64 runtime.printsp+0
+	rel 304+4 t=R_CALLARM64 runtime.printint+0
+	rel 308+4 t=R_CALLARM64 runtime.printsp+0
+	rel 316+4 t=R_CALLARM64 runtime.printint+0
+	rel 320+4 t=R_CALLARM64 runtime.printsp+0
+	rel 328+4 t=R_CALLARM64 runtime.printint+0
+	rel 332+4 t=R_CALLARM64 runtime.printsp+0
+	rel 340+4 t=R_CALLARM64 runtime.printint+0
+	rel 344+4 t=R_CALLARM64 runtime.printsp+0
+	rel 352+4 t=R_CALLARM64 runtime.printint+0
+	rel 356+4 t=R_CALLARM64 runtime.printsp+0
+	rel 364+4 t=R_CALLARM64 runtime.printint+0
+	rel 368+4 t=R_CALLARM64 runtime.printsp+0
+	rel 376+4 t=R_CALLARM64 runtime.printint+0
+	rel 380+4 t=R_CALLARM64 runtime.printnl+0
+	rel 384+4 t=R_CALLARM64 runtime.printunlock+0
+	rel 404+4 t=R_CALLARM64 runtime.morestack_noctxt+0
+go:cuinfo.producer.<unlinkable> SDWARFCUINFO dupok size=0
+	0x0000 2d 4e 20 2d 6c 20 72 65 67 61 62 69              -N -l regabi
+go:cuinfo.packagename.main SDWARFCUINFO dupok size=0
+	0x0000 6d 61 69 6e                                      main
+main..inittask SNOPTRDATA size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+gclocals·g2BeySu+wFnoycgXfElmcg== SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+main.add.arginfo1 SRODATA static dupok size=22
+	0x0000 08 08 10 08 18 08 20 08 28 08 30 08 38 08 40 08  ...... .(.0.8.@.
+	0x0010 48 08 50 08 fc ff                                H.P...
